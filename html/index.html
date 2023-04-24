@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Create your Account</h1>
+            <div class="btn">
+               <a href="#" class="btn_facebook" id="btn_facebook">
+                <img src="/src/img/facebook.png" alt=""> Continue with facebook</a>
+            </div>
+            <span>we'll never post without your permission</span>
+        </header>
+        <div class="container-form">
+            <div class="form">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+            <form action="" class="formdata">
+                <div class="section">
+                    <label for="mounth">Mounth</label>
+                    <select name="select1" id="mounth">
+                        <option value="#" selected></option>
+                        <option value="Janeiro" >Janeiro</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option>
+                        <option value="abril">Abril</option>
+                    </select>
+                    <label for="day">Day</label>
+                    <select name="select2" id="day">
+                        <option value="#" selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <label for="year">Year</label>
+                    <select name="select3" id="year">
+                        <option value="#" selected></option>
+                        <option value="1999" >1999</option>
+                        <option value="2000">2000</option>
+                    </select>
+                </div>
+            </form>
+            <form action="">
+                <label for="gender">Gender</label>
+                    <select name="select4" id="gender">
+                        <option value="#"selected></option>
+                        <option value="masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+            </form>
+            <div class="buttons">
+                <button type="button"class="btn-save"id="btn-save">Save</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
