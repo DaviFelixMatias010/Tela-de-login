@@ -16,7 +16,6 @@ header{
     flex-direction: column;
 }
 .btn{
-    width: 100vhc;
     height: 50px;
     display: flex;
     justify-content: space-around;
@@ -51,74 +50,41 @@ span{
     border-bottom: 20px;
     box-shadow: 1px 1px 5px 0px gray;
     margin-bottom: 10px;
+    border-radius: 4px;
 }
-.form{
+.cadastro{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    font-size: 12px;
-    margin-top: 10px;
+    padding: 5px 5px;
 }
-.section{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: end;
-    margin: 5px 0 5px 0;
-}
-#mounth,#day,#year,#gender{
-    display: flex;
-    width: 80px;
-    text-align: center;
-    font-size: 10px;
-    border: 1px dashed gray;
+#f_name, #surname, #email, #password{
+    border: 1px dashed grey;
     border-radius: 5px;
-}
-#gender{
-    width: 100px;
-    margin-bottom: 10px;
-}
-#mounth,#day,#year,#gender:hover{
-    color: rgb(2, 2, 114);
-}
-input{
-    margin-bottom: 5px;
-    border:1px dashed gray;
-    border-radius: 5px;
-    color: rgb(70, 69, 69);
-    font-weight: normal;
-    font-size: 10px;
-}
-input,select:focus{
     outline: none;
+    text-indent: 2px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    width: auto;
 }
-input:hover,select:hover{
-    background-color: rgb(241, 240, 240);
+#f_name:hover ,#surname:hover ,#email:hover ,#password:hover{
+    background-color: rgb(248, 248, 248);
+}
+.btn_cadastrar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#btn_cadastrar{
+    background-color: rgb(6, 241, 6);
+    border: none;
+    border-radius: 5px;
+    padding: 0 30px;
+    transition: all .2s ease-in-out;
+}
+#btn_cadastrar:hover{
+    transform: scale(1.1);
 }
 label{
-    color: rgb(2, 2, 114);
-    font-size: 10px;
+    color: rgb(3, 3, 119);
 }
-.data{
-    display: flex;
-    flex-direction: row;
-    width: 20px;
-}
-.buttons{
-    display: flex;
-    justify-content: center;
-    border-top: 5px;
-}
-.btn-save{
-    padding: 0 50px;
-    background-color: rgb(3, 175, 3);
-    border: 0;
-    border-radius: 5px;
-    transition: all .2s ease-in-out;
-    font-size: 12px;
-    color: white;
-}
-.btn-save:hover{
-    transform: scale(1.1);
-    background-color:rgb(3, 148, 3);
-}
+
